@@ -1,0 +1,149 @@
+* {
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: #fe7e00;
+	text-align: center;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+		
+}
+span {
+	font-weight: normal;
+}
+
+#left, #right {
+	width: 49%;
+	display: inline-block;
+	
+}
+
+#left img {
+	height:35px;
+	width:20px;
+	object-fit: fill;
+	background-color: orange;
+}
+
+h3 {
+	font-size: 2.00em;
+	color: white;
+	display: inline-block;
+	padding-right: 100px;
+}
+
+
+div.searchbar {
+	text-align: right;
+	margin: 40px auto;
+
+}
+
+.searchbar {
+	color: #c4c4c4;
+}
+
+.searchbar input[type=text] {
+	border: 30px solid #f0f0f0;
+	box-shadow: 5px 7px #bcbcbc;
+	color: #f0f0f0;
+	background-color: #f0f0f0;
+	width: 300px;
+	font-size: 1.5em;
+}
+.fa:before {
+	display: inline-block;
+	position: relative;
+	left: -25px;
+	font-size: 1.5em;
+}
+i.fa.fa-search {
+	position: relative;
+	left: -25px;
+}
+
+section {
+	padding-bottom: 39px;
+}
+section img, section div#trademark {
+	width: 35%;
+}
+
+.oranges img {
+	height: 340px;
+	width: 100%;
+}
+div.oranges {
+	text-align: right;
+}
+#trademark h1 {
+	height: 200px;
+}
+div#trademark {
+	position: relative;
+	top: -72px;
+	left: 30px;
+}
+
+.oranges, #trademark {
+	display: inline-block;
+	width: 49%;
+	padding-bottom: 50px;
+}
+
+h1 {
+	color: #fe7e00;
+	font-size: 2.3em;
+}
+h1 a {
+	color: teal;
+}
+
+button {
+	border: none;
+	background-color: teal;
+	color: white;
+	padding: 35px 70px;
+	transition: 0.5s ease;
+}
+div#trademark button {
+	top: -10px;
+
+}
+
+#orangebutton {
+	background-color: #fe7e00;
+}
+
+footer {
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ padding: 1rem;
+ background-color: #7accc8;
+ text-align: center;
+}
+
+footer.bottom {
+	margin: 0 auto;
+
+}
+
+.bottom li {
+	display: inline-block;
+	font-size: 2em;
+	color: white;
+	margin-top: -40px;
+}

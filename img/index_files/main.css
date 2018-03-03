@@ -1,0 +1,49 @@
+* {
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: orange;
+	text-align: center;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+		
+}
+
+
+#left, #right {
+	display: inline-block;
+	
+}
+
+
+img {
+	height:15px;
+	width:12px;
+	object-fit: fill;
+	background-color: orange;
+	
+}
+
+
+h3 {
+	font-size: 1.00em;
+	color: white;
+	
+}
+
+section {
+	margin: 0 auto;
+	background-color: white;
+}
+
